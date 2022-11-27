@@ -2,6 +2,8 @@
 
 console.log(Deno.args);
 
-if (Deno.args.size == 0) {
-  
+if (Deno.args.length == 0) {
+  console.log("Reading from stdin")
+} else {
+  console.log("reading from args")
 }
