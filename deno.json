@@ -1,0 +1,20 @@
+{
+  "fmt": {
+    "files": {
+      "include": ["src/"]
+    },
+    "options": {
+      "lineWidth": 115,
+      "indentWidth": 2,
+      "singleQuote": false
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
